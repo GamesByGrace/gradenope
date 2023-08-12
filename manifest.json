@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "gradenope",
+  "version": "0.1",
+  "description": "hides grades on gradescope dashboard",
+
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://www.gradescope.com/courses/*"
+      ]
+    }
+  ]
+}
