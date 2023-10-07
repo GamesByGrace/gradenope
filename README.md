@@ -1,2 +1,2 @@
 # gradenope
-hides grades on gradescope dashboard
+chromium extension that hides grades on the gradescope dashboard
